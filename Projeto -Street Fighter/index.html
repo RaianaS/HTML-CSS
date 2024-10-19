@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Street Fighter 6 </title>
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="src/Personagens/logo_mark.png" type="image/x-icon">
+</head>
+
+<body>
+  <main>
+    <div class="cartao-lutadores">
+
+      <div class="cartao-lutador tipo-padrao aberto" id="cartao-luke">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Luke</h2>
+            <span>#001</span>
+          </div>
+
+          <span class="tipo">Padrão</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/luke.png" width="300" alt="luke" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Contratado por uma EMP, Luke usa sua vasta experiência para ensinar MMA. Ele passa os dias livres comendo
+              tranqueiras, jogando videogames e lutando, mas não se engane: ele joga para vencer.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo Traiçoeiro" id="cartao-jamie">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Jamie</h2>
+            <span>#002</span>
+          </div>
+
+          <span class="tipo">Traiçoeiro</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/jamie.png" width="300" alt="Jamie" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+            <p>Mediador da paz de Chinatown que quer seguir o exemplo de Yun e Yang, os Dragões Gêmeos. Um dançarino de
+              primeira, Jamie valoriza a justiça e a amizade acima de tudo, defendendo a cidade com suas habilidades..
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-velocidade" id="cartao-kimberly">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Kymberly</h2>
+            <span>#003</span>
+          </div>
+
+          <span class="tipo">Velocidade</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/kimberly.png" width="300" alt="Kimberly" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+            <p>Aluna de Guy e 39ª sucessora do Bushinryu. Kimberly teve uma infância normal, mas é uma garota prodígio
+              que se formou antes do tempo... e agora quer ser ninja. Adora cultura pop dos anos 80.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-padrao" id="cartao-ryu">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Ryu</h2>
+            <span>#004</span>
+          </div>
+
+          <span class="tipo">Padrão</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/ryu.png" width="300" alt="ryu" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Este pokedev nunca deixa a chama do aprendizado se apagar! Está sempre se atualizando, pois sabe que um
+              bom desenvolvedor deve ser resiliente e adaptável às mudanças constantes no mundo da tecnologia. Estar
+              aberto a aprender novas ferramentas e metodologias é crucial.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-velocidade" id="cartao-chun-li">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Chun-li</h2>
+            <span>#005</span>
+          </div>
+
+          <span class="tipo">Velocidade</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/chu-li.png" width="300" alt="chun-li" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+            <p>Ex-agente em ascensão da ICPO, Chun-Li cuida de Li-Fen, vítima do Incidente da Black Moon. Com a Shadaloo
+              agora dividida, Chun-Li dá aulas de kung fu e se tornou uma figura adorada pela comunidade local.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-padrao" id="cartao-guile">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Guile</h2>
+            <span>#006</span>
+          </div>
+          <span class="tipo">Padrão</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/guile.png" width="300" alt="Luke" />
+          </div>
+        </div>
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+            <p>Piloto da força aérea estadunidense e defensor do país, Guile conseguiu vencer a Shadaloo e vingar seu
+              amigo Charlie. Embora goste da vida familiar como poucos, novos campos de batalha o esperam.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-força" id="cartao-ken">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Ken</h2>
+            <span>#007</span>
+          </div>
+
+          <span class="tipo">Força</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/ken.png" width="300" alt="Ken" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Ex-campeão do Campeonato Nacional de Luta e ex-vice-presidente da Fundação Masters. Acusações de
+              orquestrar um plano criminoso forçaram Ken a abandonar negócios e família e se esconder.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-força" id="cartao-e.honda">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">E.Honda</h2>
+            <span>#008</span>
+          </div>
+          <span class="tipo">Força</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/e.honda.png" width="300" alt="e.honda" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Um lutador de sumô que busca popularizar esse esporte pelo mundo, E. Honda poderia chegar a yokozuna, mas
+              as viagens constantes impedem sua promoção. Ele também é um cozinheiro de primeira, conhecido pelo seu
+              chankonabe.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-velocidade" id="cartao-juri">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Juri</h2>
+            <span>#009</span>
+          </div>
+
+          <span class="tipo">Velocidade</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/juri.png" width="300" alt="Juri" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Esta caçadora de emoções sádica deriva prazer da angústia e do sofrimento dos outros, se deleitando com a
+              obliteração dos inimigos. Sem a vingança contra M. Bison como força-motriz, ela passa o tempo em névoas.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-traiçoeiro" id="cartao-dhalsim">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Dhalsim</h2>
+            <span>#010</span>
+          </div>
+
+          <span class="tipo">Traiçoeiro</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/dhaosim.png" width="300" alt="Dhalsim" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Um monge indiano e mestre da ioga que guiou inúmeras almas perdidas. Prefere evitar conflitos sempre que
+              possível, mas seu desgosto inato pelo mal o instiga a fazer justiça com firmeza.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-força" id="cartao-zangief">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Zangief</h2>
+            <span>#011</span>
+          </div>
+
+          <span class="tipo">Força</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/zangief.png" width="300" alt="Zangief" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Um lutador gigantesco conhecido como Ciclone Vermelho. Zangief se dedica a melhorar o próprio físico e
+              orientar estudantes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao-lutador tipo-força" id="cartao-manon">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Manon</h2>
+            <span>#012</span>
+          </div>
+
+          <span class="tipo">Força</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/manon.png" width="300" alt="Manon" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Supermodelo e judoca campeã mundial, Manon é uma idealista, sempre procurando melhorar em sua busca pela
+              beleza. Ela desfila no palco das lutas de rua para se tornar a modelo mais forte do mundo.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cartao-lutador tipo-velocidade" id="cartao-cammy">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Cammy</h2>
+            <span>#013</span>
+          </div>
+
+          <span class="tipo">Velocidade</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/cammy.png" width="300" alt="Cammy" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Integrante da unidade das forças especiais britânicas Delta Red. Destacou-se na operação contra a
+              Shadaloo, com a qual tem uma ligação predestinada. Ultracompetente, mas taciturna. Trabalha no QG
+              atualmente.</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="cartao-lutador tipo-traiçoeiro" id="cartao-jp">
+        <div class="cartao-topo">
+          <div class="detalhes">
+            <h2 class="nome">Jp</h2>
+            <span>#014</span>
+          </div>
+
+          <span class="tipo">Traiçoeiro</span>
+
+          <div class="cartao-imagem">
+            <img src="src/Personagens/jp.png" width="300" alt="Jp" />
+          </div>
+        </div>
+
+        <div class="cartao-informacoes">
+          <div class="descricao">
+            <h3>Descrição</h3>
+
+            <p>Líder de uma ONG internacional responsável por muitos investimentos bem-sucedidos, e o homem por trás da
+              prosperidade de Nayshall. Tem uma gata chamada Cybele.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="listagem">
+      <ul>
+      
+        <li class="lutador ativo" id="luke">
+          <img src="src/Personagens/01 Luke.jpg" width="70" alt="luke" />
+          <span>Luke</span>
+        </li>
+        
+        <li class="lutador" id="jamie">
+          <img src="src/Personagens/02 Jamie.jpg" width="70" alt="Jamie" />
+          <span>Scriptle</span>
+        </li>
+        
+        <li class="lutador" id="kimberly">
+          <img src="src/Personagens/03 Kimberly.jpg" width="70" alt="Kimberly" />
+          <span>Kimberly</span>
+        </li>
+        
+        <li class="lutador" id="ryu">
+          <img src="src/Personagens/04 Ryu.jpg" width="70" alt="ryu" />
+          <span>Ryu</span>
+        </li>
+    
+        <li class="lutador" id="chun-li">
+          <img src="src/Personagens/05 Chun-li.jpg" width="70" alt="chun-li" />
+          <span>Chun-Li</span>
+        </li>
+        
+        <li class="lutador" id="guile">
+          <img src="src/Personagens/06 Guile.jpg" width="70" alt="Guile" />
+          <span>Guile</span>
+        </li>
+        
+        <li class="lutador" id="ken">
+          <img src="src/Personagens/07 Ken.jpg" width="70" alt="Ken" />
+          <span>Ken</span>
+        </li>
+    
+        <li class="lutador" id="e.honda">
+          <img src="src/Personagens/08 E.honda.jpg" width="70" alt="e.honda" />
+          <span>E.honda</span>
+        </li>
+      
+        <li class="lutador" id="juri">
+          <img src="src/Personagens/09 Juri.jpg" width="70" alt="Juri" />
+          <span>Juri</span>
+        </li>
+        
+        <li class="lutador" id="dhalsim">
+          <img src="src/Personagens/10 Dhalsim.jpg" width="70" alt="Dhalsim" />
+          <span>Dhalsim</span>
+        </li>
+  
+        <li class="lutador" id="zangief">
+          <img src="src/Personagens/13 Zangief.jpg" width="70" alt="Zangief" />
+          <span>Zangief</span>
+        </li>
+  
+        <li class="lutador" id="manon">
+          <img src="src/Personagens/15 Manon.jpg" width="70" alt="Manon" />
+          <span>Manon</span>
+        </li>
+      
+        <li class="lutador" id="cammy">
+          <img src="src/Personagens/16 Cammy.jpg" width="70" alt="Cammy" />
+          <span>Cammy</span>
+        </li>
+      
+        <li class="lutador" id="jp">
+          <img src="src/Personagens/18 Jp.jpg" width="70" alt="Jp" />
+          <span>Jp</span>
+        </li>
+      </ul>
+  </nav>
+  </main>
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>

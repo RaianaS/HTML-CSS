@@ -1,0 +1,138 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("../Fundo/Fundo2.jpg");
+    background-size: cover;
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    backdrop-filter: blur(8px);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.lutador {
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.cartao-lutador {
+    display: none;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 8px;
+    padding: 10p 0px;
+    background-color: #000000b4;
+}
+
+.cartao-lutador.aberto {
+    display: block;
+}
+
+.cartao-lutador img {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+
+}
+
+.cartao-lutador .cartao-topo {
+    padding: 30px 30px;
+}
+
+.cartao-lutador .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-lutador .tipo {
+    background-color: #e4d9d9e0;
+    font-size: 12px;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+   
+}
+
+.cartao-lutador .detalhes {
+    color: rgba(255, 255, 255, 0.788);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-lutador .cartao-informacoes {
+    background-color: rgba(230, 228, 228, 0.658);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px 30px;
+    margin-top:-70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-lutador .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 20px; /* Adicionado 'px' */
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-lutador .cartao-informacoes .descricao {
+    padding: 0 10px;
+    font-size: 15px;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.listagem {
+    max-width: 200px;
+    height: 500px; 
+    overflow-y: scroll; 
+    margin: 50px;
+    padding: 10px;
+}
+
+.listagem .lutador img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listagem .lutador {
+    background-color: #000000b4;
+    color: #e4d9d9e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+   min-height: 70px;
+
+   transition: 0.15 ease-in-out;
+} 
+
+.listagem .lutador:hover {
+    transform: scale(1.05);
+}
+
+.listagem .lutador span {
+    padding-right: 20px;
+}
+
+.listagem .lutador.ativo {
+    background-color: #000000;
+}
